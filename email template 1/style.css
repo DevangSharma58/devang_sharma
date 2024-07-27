@@ -1,0 +1,136 @@
+body {
+    background-color: #f4f4e1;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.container-info{
+   background-color: #231101;
+   margin: 0%;
+   padding: 100px;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.summary {
+    background-color: #282828;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.shipping-address {
+    background-color: #282828;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#button-a{
+    margin: 40px;
+    padding: 10px;
+    background-color: #ffc107;
+    text-decoration: none;
+    border: none;
+ }
+#form-a{
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #181818;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #231101;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer-link {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.footer-social {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-icon {
+    margin: 0 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    .summary-item,
+    .contact-info,
+    .footer-social {
+        flex-direction: column;
+    }
+
+    .summary-item {
+        margin-bottom: 15px;
+    }
+
+    .contact-button,
+    .referral-link {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .order-item {
+        margin-top: 10px;
+    }
+
+    .order-item-title {
+        font-size: 1.2em;
+    }
+
+    .order-item-details {
+        margin-bottom: 5px;
+    }
+}
